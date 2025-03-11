@@ -1,0 +1,220 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+.bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #3146a1;
+}
+img {
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto ;
+
+    }
+
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .about{
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .menu .navbar ul li{
+        position: relative;
+        float: left;
+    }
+    .menu .navbar ul li a{
+        font-size: 18px;
+        padding: 20px;
+        color: #FFFFFF;
+        display: block;
+        font-weight: 600;
+    }
+    .menu .navbar ul li a:hover{
+        color: #49bada;
+    }
+
+    #menu{
+        display: none;
+    }
+    .menu-icono{
+        width: 25px;
+        
+    }
+    .menu label{
+        cursor:pointer;
+        display: none;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        min-height: 70vh;
+        padding: 50px 0 0 0;
+    }
+    .header-content{
+        display: flex;
+        flex: 1;
+
+    }
+    .header-txt{
+        flex-basis: 50%;
+    }
+
+    .header-txt span{
+        font-size: 30px;
+        font-weight: 600;
+        color: #fdfdfd;
+    }
+
+    .header-txt h1{
+        font-size: 100px;
+        color: #FFFFFF;
+        line-height: 1;
+        font-family: 'Bebas Neue', sans-serif;
+        margin: 10px 0 25px 0;
+
+    }
+    .btn-1{
+        display: inline-block;
+        padding: 13px 35px;
+        background: linear-gradient(
+            90deg,
+            rgba(78,159,215,1)0%
+            rgba(74,42,193,1)100%
+
+        ); 
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .about {
+        padding: 0 0 100px 0;
+        display: flex;
+        align-items: 40%;
+    }
+
+    .about-img{
+        flex-basis: 40%;
+
+    }
+    .about-img img {
+        width: 350px;
+        border-radius: 15px;
+        border: 10px solid #49bada;
+    }
+    .about-txt{
+        flex-basis: 60%;
+    }
+
+
+    .h2 {
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #e7e1e1;
+        margin-bottom: 20px;
+
+        }
+
+        .about-txt p{
+            color: #000000;
+            font-size: 17px;
+            
+        }
+
+        .butons a {
+            margin-right: 15px;
+        }
+        .portafolio{
+            padding: 50px 0;
+            text-align: center;
+        }
+        .portafolio-content {
+            margin-top: 100px;
+
+        }
+        .portafolio-1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100x;
+        }
+        .portafolio-txt{
+            flex-basis: 50%;
+            text-align: left;
+        }
+        .portafolio-img{
+            align-items: center;
+            margin-bottom: 80x;
+            
+    border-radius: 15px;
+    border: 10px solid #49bada;
+        }
+    
+    .portafolio-txt h3{
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .portafolio-txt p{
+        font-size: 18px;
+       
+        color: #000000;
+        display: block;
+        font-weight: 600;
+    }
+
+.skills-content h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.skills-content img {
+    width: 350px;
+    border-radius: 15px;
+    border: 10px solid #49bada;
+}
+
+.footer-contect .container {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;  
+
+}
+.link{
+    color: #000000;
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+}
